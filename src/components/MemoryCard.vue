@@ -45,7 +45,7 @@ const emit = defineEmits<{
         :src="props.memory.src"
         :alt="props.memory.alt"
         class="block aspect-[4/3] w-full object-cover grayscale-[15%] contrast-110"
-        loading="lazy"
+        loading="eager"
         draggable="false"
       />
       <span
