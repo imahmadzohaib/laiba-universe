@@ -1,0 +1,16 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F7F1E8"/>
+  <rect x="60" y="60" width="1080" height="510" rx="28" fill="#EFE5D6" stroke="#612C46" stroke-width="3" stroke-dasharray="12 12"/>
+  <text x="640" y="230" text-anchor="middle" font-family="Georgia, serif" font-size="44" font-style="italic" fill="#612C46">
+    A little universe
+  </text>
+  <text x="640" y="300" text-anchor="middle" font-family="Georgia, serif" font-size="64" font-weight="600" fill="#11182D">
+    Laiba
+  </text>
+  <text x="640" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#612C46">
+    A Birthday Experience · 10 October
+  </text>
+  <circle cx="160" cy="520" r="22" fill="#D6B77A"/>
+  <circle cx="1040" cy="120" r="16" fill="#D6A5AC"/>
+  <path d="M100 480 Q120 470 140 480 T180 475" stroke="#B8ACD4" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>
