@@ -96,6 +96,7 @@ watch(
                 loading="eager"
                 draggable="false"
               />
+              <span v-if="current.media === 'video'" class="absolute top-2 right-2 rounded-full bg-ivory/90 px-2 py-0.5 text-xs hand text-burgundy/75 shadow">VIDEO</span>
             </div>
 
             <div class="p-6 text-center">
