@@ -40,6 +40,14 @@ export function useReveal(options: { selector?: string; once?: boolean } = {}) {
     )
 
     targets.forEach((t) => observer?.observe(t))
+
+    // Fallback: reveal all elements after 2s if IntersectionObserver
+    // hasn't triggered (can happen on mobile with CSS columns)
+    setTimeout(() => {
+      targets.forEach((t) => {
+        if (!t.classList.contains('is-visible')) reveal(t)
+      })
+    }, 2000)
   })
 
   onUnmounted(() => observer?.disconnect())

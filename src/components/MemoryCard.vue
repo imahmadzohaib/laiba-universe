@@ -44,7 +44,7 @@ const emit = defineEmits<{
         v-else
         :src="props.memory.src"
         :alt="props.memory.alt"
-        class="block aspect-[4/3] w-full object-cover contrast-110 h-auto"
+        class="block aspect-[4/3] w-full object-cover contrast-110"
         loading="eager"
         draggable="false"
       />
